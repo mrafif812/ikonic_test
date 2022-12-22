@@ -22,6 +22,7 @@ class Order extends Model
 
     protected $fillable = [
         'merchant_id',
+        'external_order_id',
         'affiliate_id',
         'subtotal',
         'commission_owed',
